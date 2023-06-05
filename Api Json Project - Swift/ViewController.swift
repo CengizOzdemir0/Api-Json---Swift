@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Api Json Project - Swift
 //
-//  Created by sys on 5.06.2023.
+//  Created by CengizOzdemir on 5.06.2023.
 //
 
 import UIKit
