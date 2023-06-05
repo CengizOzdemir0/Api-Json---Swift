@@ -33,11 +33,14 @@ class ViewController: UIViewController {
         let url = URL(string: "http://data.fixer.io/api/latest?access_key=9d1f8cf40991cc19ea9ce2b1ce610ad6")
         let session = URLSession.shared
         let task = session.dataTask(with: url!) { (data, response, error) in
+            // hata mesajı varsa
             if error != nil {
                let alert = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: UIAlertController.Style.alert)
                 let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
                 alert.addAction(okButton)
-                self.present(alert, animated: trueq, completion: nil)
+                self.present(alert, animated: true, completion: nil)
+            } else {
+                
             }
         }
         
