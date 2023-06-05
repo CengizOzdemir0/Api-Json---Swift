@@ -31,15 +31,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHF :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKu-DT-IVS">
-                                <rect key="frame" x="64" y="270" width="246" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="S4g-ka-5fG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GDP :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPP-0d-VIb">
                                 <rect key="frame" x="64" y="318" width="246" height="34"/>
                                 <constraints>
@@ -89,6 +80,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHF :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKu-DT-IVS">
+                                <rect key="frame" x="64" y="270" width="246" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="S4g-ka-5fG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -101,7 +101,6 @@
                             <constraint firstItem="da0-hm-dKw" firstAttribute="top" secondItem="0QA-p4-eWd" secondAttribute="bottom" constant="39" id="6u9-7n-TKc"/>
                             <constraint firstItem="Y6F-Se-YCN" firstAttribute="top" secondItem="YU1-BJ-FUr" secondAttribute="bottom" constant="66" id="Dxx-Pj-dDg"/>
                             <constraint firstItem="da0-hm-dKw" firstAttribute="leading" secondItem="UKu-DT-IVS" secondAttribute="leading" id="Moe-ee-t9m"/>
-                            <constraint firstItem="0QA-p4-eWd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pn7-zn-Awr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="da0-hm-dKw" secondAttribute="trailing" constant="104" id="YP2-tt-YDZ"/>
                             <constraint firstItem="qHI-PI-kYV" firstAttribute="top" secondItem="L6g-qt-gUf" secondAttribute="bottom" constant="18" id="ZJ6-Cz-luc"/>
                             <constraint firstItem="Y6F-Se-YCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="Ztt-2I-JWe"/>
